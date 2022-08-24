@@ -1,0 +1,101 @@
+@import '../../../public-scss/Functions.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homepage{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #faf0e6;
+    @include centerFlex(center, center, column);
+    &-header{
+        width: 80vw;
+        height: auto;
+
+        margin-bottom: 20px;
+        @include centerFlex(center, center, row);
+        &-content{
+            width: auto;
+            height: 100%;
+
+            background-color: #eed9c4;
+            padding: 10px 20px;
+            border-radius: 4px;
+
+            @include centerFlex(center, center, row);
+            &-left{
+                margin-right: 30px;
+
+                input[type=number]{
+                    width: 100%;
+                    padding: 8px 12px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        &-inputs{
+            width: 400px;
+            height: 100%;
+    
+            @include centerFlex(center, flex-start, column);
+            label{
+                color: white;
+            }
+            
+            input[type=submit] {
+                width: 300px;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+              }
+              
+              input[type=submit]:hover {
+                background-color: #45a049;
+              }
+        }
+        &-filter{
+            width: 400px;
+            height: auto;
+            background-color: #eed9c4;
+            padding: 20px;
+            border-radius: 4px;
+    
+            @include centerFlex(center, flex-end, column);
+            label{
+                color: white;
+            }
+            input[type=number]{
+                width: 300px;
+                padding: 3px 6px;
+                margin-top: 5px;
+                border-radius: 5px;
+            }
+            input[type=submit] {
+                width: 300px;
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+              }
+              
+              input[type=submit]:hover {
+                background-color: #45a049;
+              }
+        }
+    }
+}

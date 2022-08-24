@@ -1,0 +1,6 @@
+@import '../../../public-scss/Functions.scss';
+
+.gridbox{
+    border: 1px solid black;
+    @include centerFlex(center, center, column);
+}
