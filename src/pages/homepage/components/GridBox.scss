@@ -1,6 +1,13 @@
 @import '../../../public-scss/Functions.scss';
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .gridbox{
     border: 1px solid black;
+    cursor: help;
     @include centerFlex(center, center, column);
 }

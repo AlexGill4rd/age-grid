@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import './AgeGridStyle.scss';
 import GridBox from './GridBox';
 
-function AgeGrid(props: {currentAge: number, type: string}){
+function AgeGrid(props: {currentAge: any, type: string}){
     const averageLifeLength = 85;
     const [boxes, setBoxes] = useState<any[]>([]);
 

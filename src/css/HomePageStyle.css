@@ -8,7 +8,10 @@
 .homepage {
   width: 100vw;
   height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   background-color: #faf0e6;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,18 +19,18 @@
 }
 .homepage-header {
   width: 80vw;
-  height: auto;
-  margin-bottom: 20px;
+  height: 30vh;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 .homepage-header-content {
-  width: auto;
+  width: 500px;
   height: 100%;
   background-color: #eed9c4;
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-radius: 4px;
   display: flex;
   flex-direction: row;
@@ -35,9 +38,14 @@
   align-items: center;
 }
 .homepage-header-content-left {
-  margin-right: 30px;
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
-.homepage-header-content-left input[type=number] {
+.homepage-header-content-left input[type=date] {
   width: 100%;
   padding: 8px 12px;
   margin: 8px 0;
@@ -46,60 +54,7 @@
   border-radius: 4px;
   box-sizing: border-box;
 }
-.homepage-header-inputs {
-  width: 400px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-.homepage-header-inputs label {
-  color: white;
-}
-.homepage-header-inputs input[type=submit] {
-  width: 300px;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.homepage-header-inputs input[type=submit]:hover {
-  background-color: #45a049;
-}
-.homepage-header-filter {
-  width: 400px;
-  height: auto;
-  background-color: #eed9c4;
-  padding: 20px;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-}
-.homepage-header-filter label {
-  color: white;
-}
-.homepage-header-filter input[type=number] {
-  width: 300px;
-  padding: 3px 6px;
-  margin-top: 5px;
-  border-radius: 5px;
-}
-.homepage-header-filter input[type=submit] {
-  width: 300px;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-.homepage-header-filter input[type=submit]:hover {
-  background-color: #45a049;
+.homepage-header-content-right {
+  width: 50%;
+  padding: 15px;
 }/*# sourceMappingURL=HomePageStyle.css.map */

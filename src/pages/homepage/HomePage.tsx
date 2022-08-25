@@ -4,7 +4,7 @@ import AgeGrid from './components/AgeGrid';
 import './style/HomePageStyle.scss';
 
 function HomePage() {
-    const [age, setAge] = useState<number>(0);
+    const [age, setAge] = useState<any>(0);
     const [filter, setFilter] = useState<string>("year");
     const [accepted, setAccepted] = useState<boolean>(false);
     function handleAgeChange(e: any) {
@@ -28,8 +28,8 @@ function HomePage() {
                 <form className='homepage-header-content' onSubmit={handleAccept}>
                     <div className='homepage-header-content-left'>
                         <label>Give your age:</label>
-                        <input onChange={handleAgeChange} value={age} type="number" id="personage" name="age" />
-                        <label>Current filter: {filter}</label>
+                        <input onChange={handleAgeChange} value={age} type="date" id="personage" name="age" />
+                        <label><strong>Current filter:</strong> {filter}</label>
                     </div>
                     <div className='homepage-header-content-right'>
                         <FormLabel id="demo-radio-buttons-group-label">Filters</FormLabel>

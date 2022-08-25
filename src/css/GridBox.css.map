@@ -1,1 +1,1 @@
-{"version":3,"sources":["../pages/homepage/components/GridBox.scss","../public-scss/Functions.scss","GridBox.css"],"names":[],"mappings":"AAEA;EACI,uBAAA;ECFA,aAAA;EACA,sBDEoC;ECDpC,uBDCoB;ECApB,mBAAA;ACEJ","file":"GridBox.css"}
+{"version":3,"sources":["../pages/homepage/components/GridBox.scss","GridBox.css","../public-scss/Functions.scss"],"names":[],"mappings":"AAEA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,yCAAA;ACDJ;;ADGA;EACI,uBAAA;EACA,YAAA;EETA,aAAA;EACA,sBFSoC;EERpC,uBFQoB;EEPpB,mBFO4B;ACGhC","file":"GridBox.css"}
