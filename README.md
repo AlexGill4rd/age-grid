@@ -12,3 +12,16 @@ The web page uses react. React was used as this is a very useful framework to cr
 - Next refer to the directory in your terminal.
 - When you are in the directory you are ready to start the web page with the following command: npm start
 - You are ready to use the web page. (localhost:3000)
+
+## Media of the project
+### Photo of the menu when birth date given:
+
+![image](https://user-images.githubusercontent.com/57497005/186725111-475b2c4c-01a3-4921-a9e5-cc67bc792874.png)
+
+### Photo when no birth date is given:
+
+![image](https://user-images.githubusercontent.com/57497005/186725210-0f8d1ed4-2798-4e23-992c-04b3eaa65486.png)
+
+### Photo of page when on Iphone SE
+![image](https://user-images.githubusercontent.com/57497005/186725474-99c7ce1c-d27c-46cf-865d-9705ec45fcc4.png)
+
